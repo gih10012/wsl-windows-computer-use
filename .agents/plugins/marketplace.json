@@ -1,0 +1,10 @@
+{
+  "name": "windows-local",
+  "interface": {"displayName": "Windows Desktop Tools"},
+  "plugins": [{
+    "name": "windows-desktop",
+    "source": {"source": "local", "path": "./plugins/windows-desktop"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

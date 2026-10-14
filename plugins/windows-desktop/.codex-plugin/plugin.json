@@ -1,0 +1,16 @@
+{
+  "name": "windows-desktop",
+  "version": "0.2.0",
+  "description": "Local Windows desktop screenshots and UI actions from Windows or WSL.",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "Windows Desktop",
+    "shortDescription": "See and operate Windows apps",
+    "longDescription": "Local stdio MCP tools for Windows UI Automation, inline screenshots, targeted clicks and clipboard-preserving Unicode text input. Supports this machine's native Windows and WSL Codex sessions.",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"]
+  }
+}

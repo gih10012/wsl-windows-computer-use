@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "windows_desktop": {
+      "command": "node",
+      "args": ["-e", "const p=require('node:path');const h=process.env.CODEX_HOME||p.join(require('node:os').homedir(),'.codex');require(p.join(h,'plugins/cache/windows-local/windows-desktop/0.2.0/mcp-server.cjs'))"]
+    }
+  }
+}

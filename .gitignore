@@ -1,0 +1,9 @@
+/artifacts/
+/ComputerUseVerification.exe
+/__pycache__/
+/.venv/
+/*.log
+*.pyc
+# Temporary local diagnostics; the published plugin lives under plugins/.
+/mcp_call.py
+/windows-rpc-client.cjs
